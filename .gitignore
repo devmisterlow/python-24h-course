@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual
+venv/
+.env/
+
+# VSCode / VSCodium
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
