@@ -47,6 +47,15 @@ Este repositório tem como objetivo:
 ## Público-Alvo
 - Iniciantes em programação
 
+## Como rodar
+python3 aulas/01-fundamentos/teste_inicial.py 
+python -u aulas/01-fundamentos/teste_inicial.py
+
+Aqui está o que cada parte significa:
+- python: É o comando que chama o interpretador. No Linux, se python não funcionar, tente usar python3.
+- -u: Significa "unbuffered". Isso força o Python a mostrar as mensagens no terminal instantaneamente (útil para ver logs em tempo real no VS Code).
+- "/caminho/completo/do/arquivo.py": O VS Code usa o caminho completo entre aspas para garantir que o terminal encontre o arquivo, mesmo que você esteja em outra pasta ou que o nome tenha espaços.
+
 ## Licença
 - Nenhum — estamos apenas melhorando documentação.
 
